@@ -1,0 +1,50 @@
+/* body */
+/*body > .container-fluid {*/
+    /*padding-top: 60px;*/
+/*}*/
+
+/*#content {*/
+/*padding-top: 60px;*/
+/*margin: 25px;*/
+/*border: 2px black;*/
+/*}*/
+
+div #header, #content, #footer {
+    width: 300px;
+    border: 2px solid black;
+    padding: 25px;
+    margin: 25px;
+}
+
+body, header, nav, aside, article footer {
+    width: 300px;
+    border: 2px solid black;
+    padding: 25px;
+    margin: 25px;
+    background: antiquewhite;
+}
+
+/* Flexbox para colocar itens no meio da tela */
+.box {
+    display: flex;
+    align-items: center;
+    min-height: 24em;
+    justify-content: center;
+}
+
+.box-item {
+    flex: 1;
+}
+
+.Aligner-item--top {
+    align-self: flex-start;
+}
+
+/* flebox */
+.boxes {
+    border: #1d2124 2px;
+    height: 300px;
+    width: 300px;
+    padding-top: 60px;
+}
+
